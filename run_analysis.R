@@ -55,5 +55,5 @@ final_data2<-group_by(final_data2,subject,activity)
 final_summary<-summarize_all(final_data2,funs(mean))
 
 ##write the file to a txt file
-write.table(final_summary,file = "final_summar.txt",row.names = FALSE,quote=FALSE)
+write.table(final_summary,file = "final_summary.txt",row.names = FALSE,quote=FALSE)
 
