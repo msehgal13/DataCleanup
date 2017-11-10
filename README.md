@@ -12,8 +12,8 @@ The data is collected from the accelerometers from the Samsung Galaxy S smartpho
 * CodeBook - Contains the details of the variables in the dataset.
 
 ## What this code does
-1. Step 1 - Load the required libraries. For this assignment we require dply and tidyr libraries.
-2. Step 2 - Specify the directory of the data set. This should be the directory where the provided data is kept.
+1. Load the required libraries. For this assignment we require dply and tidyr libraries.
+2. Specify the directory of the data set. This should be the directory where the provided data is kept.
 3. Read the activity and features files. They contain information of the activities done to collect the data and the different data variables collected as pert of the exercise.
 4. Read the test and train data sets - For both test and train, 3 types of data sets are read - Variable values, subjects for whom the data was collected and the flag to identify what kind of activity gave the data in each row
 5. Combine all the test datasets and all the train datasets to create full data sets for train and test sets. In this code the datasets are combined using mutate function but cbind can also be used
