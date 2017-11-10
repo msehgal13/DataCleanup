@@ -2,16 +2,16 @@
 
 This is a guide for the programming assignment of Data Cleanup. It contains the list of output and the step by step execution of the code to get the output
 
-# Assignment
+## Assignment
 The data is collected from the accelerometers from the Samsung Galaxy S smartphone. The goal of the assignment is to cleanup the provided data, merge the data sets into one and create a tidy dataset output containing the mean of the data variables collected by activity and subject
 
-# List of Contents
+## List of Contents
 * Readme - This file
 * run_analysis.R - The code for reading the required data files and the code to get the desired output
 * final_summary.txt - The output of the code in txt format. This output contains a tidy dataset of means of all the variables collected from accelerometers of Samsung Galaxy S
 * CodeBook - Contains the details of the variables in the dataset.
 
-# What this code does
+## What this code does
 1. Step 1 - Load the required libraries. For this assignment we require dply and tidyr libraries.
 2. Step 2 - Specify the directory of the data set. This should be the directory where the provided data is kept.
 3. Read the activity and features files. They contain information of the activities done to collect the data and the different data variables collected as pert of the exercise.
